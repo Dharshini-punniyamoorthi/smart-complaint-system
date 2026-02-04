@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Submit Complaint - Smart Complaint</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="center-page">
+  <div class="form-card wide">
+    <h2>Register Complaint</h2>
+
+    <div id="complaintMessage" class="message"></div>
+
+    <form id="complaintForm">
+      <label>Complaint Title</label>
+      <input type="text" name="title" placeholder="Short title" required>
+
+      <label>Description</label>
+      <textarea name="details" rows="5" placeholder="Explain the issue" required></textarea>
+
+      <label>Contact (optional)</label>
+      <input type="text" name="contact" placeholder="Phone / Email">
+
+      <button type="submit" class="btn full">Submit Complaint</button>
+    </form>
+  </div>
+</main>
+
+  <script src="script.js"></script>
+</body>
+</html>
